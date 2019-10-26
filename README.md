@@ -11,3 +11,4 @@ HTML seulement
 ### HTML ReactJS Hello World
 
 La librairie est importée sur un CDN. On utilise pas jsx, on utilise pas de bundler...
+Le css n'est pas cloisonné
