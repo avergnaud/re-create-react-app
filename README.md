@@ -12,3 +12,28 @@ HTML seulement
 
 La librairie est importée sur un CDN. On utilise pas jsx, on utilise pas de bundler...
 Le css n'est pas cloisonné
+
+### HTML ReactJS sans jsx
+
+```
+const elements = React.createElement(
+    'div',
+    { className: 'App' },
+    React.createElement(
+        'header',
+        { className: 'App-header' },
+        [
+            React.createElement(
+                'img',
+                { src: 'logo.svg', className: 'App-logo', alt: 'logo' }
+            ),
+            React.createElement(
+                'p',
+                {},
+                'Hello  World'
+            )
+        ]
+    )
+);
+```
+
