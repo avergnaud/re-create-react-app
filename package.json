@@ -1,0 +1,27 @@
+{
+  "name": "meetup-novembre-2019",
+  "version": "1.0.0",
+  "description": "## v1 init",
+  "main": "App.js",
+  "scripts": {
+    "start": "npx http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avergnaud/meetup-novembre-2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avergnaud/meetup-novembre-2019/issues"
+  },
+  "homepage": "https://github.com/avergnaud/meetup-novembre-2019#readme",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "babel-standalone": "^6.26.0",
+    "http-server": "^0.11.1"
+  }
+}

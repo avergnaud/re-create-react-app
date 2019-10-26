@@ -49,3 +49,17 @@ const elements = (
     </div>
 );
 ```
+
+### npm, npx
+
+```
+npm init
+npm install --save react
+npm install --save react-dom
+npm install --save-dev babel-standalone
+npm install --save-dev http-server
+```
+
+```
+npx http-server
+```
