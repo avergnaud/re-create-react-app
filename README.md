@@ -37,3 +37,15 @@ const elements = React.createElement(
 );
 ```
 
+### HTML ReactJS avec jsx
+
+```
+const elements = (
+    <div className="App">
+        <header className="App-header">
+            <img src="logo.svg" className="App-logo" alt="logo" />
+            <p>Hello World</p>
+        </header>
+    </div>
+);
+```
