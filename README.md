@@ -10,13 +10,13 @@
 
 <a name="v1-init" />
 
-## 2. init
+## 1. init
 
 HTML seulement
 
 [sources](https://github.com/avergnaud/meetup-novembre-2019/tree/1_init_html)
 
-## ajout de React
+## Ajout de React
 
 [https://fr.reactjs.org/docs/add-react-to-a-website.html#add-react-in-one-minute](https://fr.reactjs.org/docs/add-react-to-a-website.html#add-react-in-one-minute)
 
@@ -76,7 +76,7 @@ const elements = (
 
 <a name="avec-npm-npx" />
 
-### npm, npx
+### 5. npm, npx
 
 ```
 npm init
@@ -94,7 +94,7 @@ npx http-server
 
 <a name="webpack-webpack-dev-server" />
 
-### webpack
+### 6. webpack
 
 [https://webpack.js.org/guides/getting-started/](https://webpack.js.org/guides/getting-started/)
 
