@@ -1,21 +1,20 @@
 # Meetup ReactJS Novembre 2019
 
-##### Table of Contents  
-[Init](#v1-init) <br>
-[Ajout de React](#ajout-react)<br>
-[ReactJS Hello World](#react-hello-world)<br>
-[Sans jsx](#react-sans-jsx)<br>
-[Avec jsx](#react-avec-jsx)<br>
-[npm, npx, http-server](#avec-npm-npx)<br>
-[webpack, webpack-dev-server](#webpack-webpack-dev-server)
+##### Programme du meetup :
+[1. Init](#v1-init) <br>
+[2. ReactJS Hello World](#react-hello-world)<br>
+[3. Sans jsx](#react-sans-jsx)<br>
+[4. Avec jsx](#react-avec-jsx)<br>
+[5. npm, npx, http-server](#avec-npm-npx)<br>
+[6. webpack, webpack-dev-server](#webpack-webpack-dev-server)
 
 <a name="v1-init" />
 
-## init
+## 2. init
 
 HTML seulement
 
-<a name="ajout-react" />
+[sources](https://github.com/avergnaud/meetup-novembre-2019/tree/1_init_html)
 
 ## ajout de React
 
@@ -23,14 +22,16 @@ HTML seulement
 
 <a name="react-hello-world" />
 
-### HTML ReactJS Hello World
+### 2. HTML ReactJS Hello World
 
 La librairie est importée sur un CDN. On utilise pas jsx, on utilise pas de bundler...
 Le css n'est pas cloisonné
 
+[sources](https://github.com/avergnaud/meetup-novembre-2019/tree/2_html_react_hello_world)
+
 <a name="react-sans-jsx" />
 
-### HTML ReactJS sans jsx
+### 3. HTML ReactJS sans jsx
 
 ```
 const elements = React.createElement(
@@ -54,9 +55,11 @@ const elements = React.createElement(
 );
 ```
 
+[souces](https://github.com/avergnaud/meetup-novembre-2019/tree/3_html_react_sans_jsx)
+
 <a name="react-avec-jsx" />
 
-### HTML ReactJS avec jsx
+### 4. HTML ReactJS avec jsx
 
 ```
 const elements = (
@@ -68,6 +71,8 @@ const elements = (
     </div>
 );
 ```
+
+[sources](https://github.com/avergnaud/meetup-novembre-2019/tree/4_html_react_babel_jsx)
 
 <a name="avec-npm-npx" />
 
@@ -84,6 +89,8 @@ npm install --save-dev http-server
 ```
 npx http-server
 ```
+
+[sources](https://github.com/avergnaud/meetup-novembre-2019/tree/5_html_react_npm)
 
 <a name="webpack-webpack-dev-server" />
 
