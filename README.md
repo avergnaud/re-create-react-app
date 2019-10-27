@@ -1,5 +1,12 @@
 # Meetup ReactJS Novembre 2019
 
+Objectif : on construit un Hello World en ReactJS, pour aboutir au même résultat que
+```
+create-react-app hello-world
+```
+
+Pour comprendre React, ReactDOM, babel, jsx, npm, npx, http-server, webpack, webpack-dev-server...
+
 ##### Programme du meetup :
 [1. Init](#v1-init) <br>
 [2. ReactJS Hello World](#react-hello-world)<br>
