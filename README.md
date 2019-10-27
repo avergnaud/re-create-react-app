@@ -1,12 +1,12 @@
 # Meetup ReactJS Novembre 2019
 
 ##### Table of Contents  
-[Init](#v1-init) 
-[Ajout de React](#ajout-react)
-[ReactJS Hello World](#react-hello-world)
-[Sans jsx](#react-sans-jsx)
-[Avec jsx](#react-avec-jsx)
-[npm, npx, http-server](#avec-npm-npx)
+[Init](#v1-init) <br>
+[Ajout de React](#ajout-react)<br>
+[ReactJS Hello World](#react-hello-world)<br>
+[Sans jsx](#react-sans-jsx)<br>
+[Avec jsx](#react-avec-jsx)<br>
+[npm, npx, http-server](#avec-npm-npx)<br>
 [webpack, webpack-dev-server](#webpack-webpack-dev-server)
 
 <a name="v1-init" />
