@@ -1,18 +1,31 @@
 # Meetup ReactJS Novembre 2019
 
-## v1 init
+##### Table of Contents  
+[Init](#v1-init) 
+[Ajout de React](ajout-react)
+[ReactJS Hello World](react-hello-world)
+[Sans jsx](react-sans-jsx)
+[Avec jsx](react-avec-jsx)
+[npm, npx, http-server](avec-npm-npx)
+[webpack, webpack-dev-server](webpack-webpack-dev-server)
+
+<a name="v1-init" />
+## init
 
 HTML seulement
 
-## v2 ajout de React
+<a name="ajout-react" />
+## ajout de React
 
 [https://fr.reactjs.org/docs/add-react-to-a-website.html#add-react-in-one-minute](https://fr.reactjs.org/docs/add-react-to-a-website.html#add-react-in-one-minute)
 
+<a name="react-hello-world" />
 ### HTML ReactJS Hello World
 
 La librairie est importée sur un CDN. On utilise pas jsx, on utilise pas de bundler...
 Le css n'est pas cloisonné
 
+<a name="react-sans-jsx" />
 ### HTML ReactJS sans jsx
 
 ```
@@ -37,6 +50,7 @@ const elements = React.createElement(
 );
 ```
 
+<a name="react-avec-jsx" />
 ### HTML ReactJS avec jsx
 
 ```
@@ -50,6 +64,7 @@ const elements = (
 );
 ```
 
+<a name="avec-npm-npx" />
 ### npm, npx
 
 ```
@@ -64,6 +79,7 @@ npm install --save-dev http-server
 npx http-server
 ```
 
+<a name="webpack-webpack-dev-server" />
 ### webpack
 
 [https://webpack.js.org/guides/getting-started/](https://webpack.js.org/guides/getting-started/)
