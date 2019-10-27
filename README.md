@@ -63,3 +63,22 @@ npm install --save-dev http-server
 ```
 npx http-server
 ```
+
+### webpack
+
+[https://webpack.js.org/guides/getting-started/](https://webpack.js.org/guides/getting-started/)
+
+Install
+```
+npm install webpack webpack-cli --save-dev
+npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+npm install --save-dev style-loader css-loader
+npm install --save-dev file-loader
+npm install webpack-dev-server --save-dev
+```
+
+Run
+```
+npx webpack --config webpack.config.js
+"start:dev": "webpack-dev-server"
+```

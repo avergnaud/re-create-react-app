@@ -2,9 +2,11 @@
   "name": "meetup-novembre-2019",
   "version": "1.0.0",
   "description": "## v1 init",
-  "main": "App.js",
+  "private": true,
   "scripts": {
-    "start": "npx http-server"
+    "build": "npx webpack --config webpack.config.js",
+    "start": "npx http-server ./dist",
+    "start:dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,15 @@
     "react-dom": "^16.11.0"
   },
   "devDependencies": {
-    "babel-standalone": "^6.26.0",
-    "http-server": "^0.11.1"
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
   }
 }
