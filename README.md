@@ -112,3 +112,5 @@ Run
 npx webpack --config webpack.config.js
 "start:dev": "webpack-dev-server"
 ```
+
+[sources](https://github.com/avergnaud/meetup-novembre-2019/tree/6_html_react_webpack)
