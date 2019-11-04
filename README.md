@@ -1,5 +1,7 @@
 # Meetup ReactJS Novembre 2019
 
+[https://avergnaud.github.io/meetup-react/](https://avergnaud.github.io/meetup-react/]
+
 Objectif : on construit un Hello World en ReactJS, pour aboutir au même résultat que
 ```
 create-react-app hello-world
@@ -22,6 +24,12 @@ Pour comprendre React, ReactDOM, babel, jsx, npm, npx, http-server, webpack, web
 HTML seulement
 
 [sources](https://github.com/avergnaud/meetup-novembre-2019/tree/1_init_html)
+
+[https://developer.mozilla.org/fr/docs/Web/HTML/Reglages_des_attributs_CORS](https://developer.mozilla.org/fr/docs/Web/HTML/Reglages_des_attributs_CORS)
+
+* "Utiliser la chaîne vide (crossorigin="") ou l'attribut seul (crossorigin) sera équivalent à l'utilisation de la valeur anonymous."
+* "Les requêtes CORS pour cet élément auront le marqueur d'authentification (credentials flag) avec la valeur 'same-origin'."
+*  "Le mot-clé anonymous signifie que, lorsqu'il n'y a pas la même origine, il n'y aura ni échange d'informations d'authentification de l'utilisateur via des cookies, ni des certificats SSL côté client ou des authentifications HTTP"
 
 ## Ajout de React
 
@@ -61,6 +69,8 @@ const elements = React.createElement(
     )
 );
 ```
+
+[https://stackoverflow.com/questions/42801343/what-is-the-significance-of-keys-in-reactjs/42801409](https://stackoverflow.com/questions/42801343/what-is-the-significance-of-keys-in-reactjs/42801409)
 
 [souces](https://github.com/avergnaud/meetup-novembre-2019/tree/3_html_react_sans_jsx)
 
@@ -104,6 +114,19 @@ npx http-server
 ### 6. webpack
 
 [https://webpack.js.org/guides/getting-started/](https://webpack.js.org/guides/getting-started/)
+
+[https://www.freecodecamp.org/news/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8/](https://www.freecodecamp.org/news/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8/)
+"The keyword require returns an object, which references the value of module.exports for a given file."
+une_lib.js :
+```
+module.exports = "hello world";
+```
+un_test.js :
+```
+let message = require('./une_lib.js');
+console.log(message)
+console.log(module.paths)
+```
 
 Install
 ```
