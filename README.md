@@ -131,11 +131,12 @@ console.log(module.paths)
 Install
 ```
 npm install webpack webpack-cli --save-dev
-npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+npm install babel-loader @babel/core @babel/preset-env @babel/preset-react --save-dev
 npm install --save-dev style-loader css-loader
 npm install --save-dev file-loader
 npm install webpack-dev-server --save-dev
 ```
+"Babel preset-env is a preset that compiles down to a minimum of ES5 (preset-es2015), but can also take a browser or runtime version and determine which plugins are needed for that specific environment!"
 
 Run
 ```
