@@ -1,6 +1,6 @@
 # Meetup ReactJS Novembre 2019
 
-[https://avergnaud.github.io/meetup-react/](https://avergnaud.github.io/meetup-react/]
+[https://avergnaud.github.io/meetup-react/](https://avergnaud.github.io/meetup-react/)
 
 Objectif : on construit un Hello World en ReactJS, pour aboutir au même résultat que
 ```
