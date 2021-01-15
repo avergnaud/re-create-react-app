@@ -9,6 +9,8 @@ create-react-app hello-world
 
 Pour comprendre React, ReactDOM, babel, jsx, npm, npx, http-server, webpack, webpack-dev-server...
 
+Avec une nouvelle feature...
+
 ##### Programme du meetup :
 [1. Init](#v1-init) <br>
 [2. ReactJS Hello World](#react-hello-world)<br>
