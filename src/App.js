@@ -10,6 +10,7 @@ const elements = (
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>Hello World updated</p>
+            <p>Un nouveau paragraphe</p>
         </header>
     </div>
 );
